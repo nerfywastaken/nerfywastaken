@@ -1,0 +1,29 @@
+
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 9*60 + 25 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[
+ k f f k f f k f l f k f f k f f k f l f k f f k f f k f l f k f
+f k f f k f l f [3k] f f k f f k f l f [5k] f f k f f k f l f [%J] D D J
+D D J D k D J D D J D D J D k D [3k] f f k f f k f l f [5k] f f k f f
+k f l f [%J] D D J D D J D k D J D D J D D J D k D [2j] d d j d d j d
+J d [4j] d d j d d j d J d [!H] S S H S S H S j S H S S H S S H S j S
+[2j] d d j d d j d J d [4j] d d j d d j d J d [!H] S S H S S H S j S H S
+S H S S H S j S [6f] p p f p p f p g p [1f] p p f p p f p g p [2f] p p f
+p p f p g p [3f] p p f p p f p g p [6f] p p f p p f p g p [1f] p p f p p
+f p g p [2f] p p f p p f p g p [3f] p p f p p f p g p f p p f p p f p
+g p f p p f p p f p g p k f f k f f k f l f k f f k f f k f l f
+[3k] f f k f f k f l f [5k] f f k f f k f l f [%J] D D J D D J D k D J D
+D J D D J D k D [3k] f f k f f k f l f [5k] f f k f f k f l f [%J] D D J
+D D J D k D J D D J D D J D k D [2j] d d j d d j d J d [4j] d d j d d
+j d J d [!H] S S H S S H S j S H S S H S S H S j S [2j] d d j d d j d
+J d [4j] d d j d d j d J d [!H] S S H S S H S j S H S S H S S H S j S
+[6f] p p f p p f p g p [1f] p p f p p f p g p [2f] p p f p p f p g p [3f] p
+p f p p f p g p [6f] p p f p p f p g p [1f] p p f p p f p g p [2f] p p f
+p p f p g p [3f] p p f p p f p g p f p p f p p f p g p f p p f p p
+f p g p
+]]
