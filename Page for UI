@@ -1,0 +1,52 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local AUTOMINE = Instance.new("ScreenGui")
+local Main = Instance.new("ImageLabel")
+local Money = Instance.new("TextLabel")
+local PMEBG = Instance.new("TextLabel")
+
+--Properties:
+
+AUTOMINE.Name = "AUTOMINE"
+AUTOMINE.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Main.Name = "Main"
+Main.Parent = AUTOMINE
+Main.BackgroundColor3 = Color3.fromRGB(252, 255, 19)
+Main.BackgroundTransparency = 1.000
+Main.Position = UDim2.new(0.261655569, 0, 0.0283464193, 0)
+Main.Size = UDim2.new(0, 455, 0, 100)
+Main.Image = "rbxassetid://3570695787"
+Main.ImageColor3 = Color3.fromRGB(255, 191, 0)
+Main.ScaleType = Enum.ScaleType.Slice
+Main.SliceCenter = Rect.new(100, 100, 100, 100)
+Main.SliceScale = 0.250
+
+Money.Name = "Money"
+Money.Parent = Main
+Money.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Money.BackgroundTransparency = 1.000
+Money.Position = UDim2.new(0.136263743, 0, 0.439999998, 0)
+Money.Size = UDim2.new(0, 330, 0, 56)
+Money.Font = Enum.Font.SourceSans
+Money.Text = "You need $10.00 to purchase the pickaxe"
+Money.TextColor3 = Color3.fromRGB(255, 0, 4)
+Money.TextScaled = true
+Money.TextSize = 14.000
+Money.TextWrapped = true
+
+PMEBG.Name = "PMEBG"
+PMEBG.Parent = Main
+PMEBG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PMEBG.BackgroundTransparency = 1.000
+PMEBG.BorderSizePixel = 2
+PMEBG.Size = UDim2.new(0, 455, 0, 50)
+PMEBG.Font = Enum.Font.SourceSansBold
+PMEBG.Text = "PMEBG AUTO-MINE"
+PMEBG.TextColor3 = Color3.fromRGB(0, 0, 0)
+PMEBG.TextScaled = true
+PMEBG.TextSize = 14.000
+PMEBG.TextWrapped = true
