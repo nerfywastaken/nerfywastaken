@@ -12,6 +12,7 @@ local PMEBG = Instance.new("TextLabel")
 
 AUTOMINE.Name = "AUTOMINE"
 AUTOMINE.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+AUTOMINE.ResetOnSpawn = false
 
 Main.Name = "Main"
 Main.Parent = AUTOMINE
