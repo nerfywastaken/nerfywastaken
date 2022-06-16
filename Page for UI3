@@ -1,0 +1,26 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local sus = Instance.new("ScreenGui")
+local amongus = Instance.new("TextLabel")
+
+--Properties:
+
+sus.Name = "sus?"
+sus.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+sus.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+amongus.Name = "among us"
+amongus.Parent = sus
+amongus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+amongus.BackgroundTransparency = 1.000
+amongus.Position = UDim2.new(0.330827057, 0, 0.102362201, 0)
+amongus.Size = UDim2.new(0, 559, 0, 50)
+amongus.Font = Enum.Font.Arcade
+amongus.Text = "There is an Admin in the server, be careful."
+amongus.TextColor3 = Color3.fromRGB(0, 0, 0)
+amongus.TextScaled = true
+amongus.TextSize = 14.000
+amongus.TextWrapped = true
