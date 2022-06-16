@@ -11,6 +11,7 @@ local amongus = Instance.new("TextLabel")
 sus.Name = "sus?"
 sus.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 sus.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+sus.ResetOnSpawn = false
 
 amongus.Name = "among us"
 amongus.Parent = sus
